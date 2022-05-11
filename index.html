@@ -1,0 +1,95 @@
+<!-- As part of your recruitment process we require you
+  to write CSS and JS for the HTML template provided -->
+
+<!-- You are allowed to add elements but not delete any element provided in this file. -->
+<!-- You are allowed to add attributes to the tags 
+  which will let you select them in your CSS and JS -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daksh</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header>
+      <h1>Daksh</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Events</li>
+          <li>Team</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class='bck'>
+      <article>
+        <img src="undraw_profile_data_re_v81r.svg" alt="Contact Us" id="img1" >
+        <div class='quote'>
+          <p>
+         feedback<br>is the breakfast<br> of champions.<br>
+          </p>
+            -Ken Blanchard
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <div class="fbck">
+        <form>
+          <fieldset>
+            <legend>Write to us</legend>
+            <div class="form one">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="Vijay" />
+            </div>
+            <div class="form two">
+              <label for="college">College</label>
+              <input list="colleges" name="college" id="college" />
+              <datalist id="colleges">
+                <option value="SASTRA Thanjavur"></option>
+                <option value="IIT Madras"></option>
+                <option value="NIT Trichy"></option>
+                <option value="SSN Chennai"></option>
+              </datalist>
+              <br />
+            </div>
+            <div>
+              <label for="feedback" id="fbklbl">Feedback</label>
+              <input type="text" id="feedback" name="feedback" />
+            </div>
+            <div class="form four">
+              <input type="submit" value="Submit" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+      <footer>
+        <p>
+          We are always in the lookout for feedback and suggestions. Shoot your
+          queries and rest assured, we'll get back to you ASAP!
+        </p>    
+      <span
+        >DAKSH, the international techno-management festival of SASTRA
+        University</span
+      >
+      <span>
+        <a target="_blank" href="https://instagram.com"
+          ><div><img src="instagram.png" class="logos one" /></div
+        ></a>
+        <a target="_blank" href="https://twitter.com"
+          ><div><img src="twitter.png" class="logos two" /></div
+        ></a>
+      </span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
